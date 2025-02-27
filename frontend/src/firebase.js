@@ -5,7 +5,7 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAsqpN0dmwo4gdlTRISyKoQT8kHMPp573o",
+  apiKey: process.env.GOOGLE_API_KEY,
   authDomain: "autopricingsystem.firebaseapp.com",
   projectId: "autopricingsystem",
   storageBucket: "autopricingsystem.firebasestorage.app",
